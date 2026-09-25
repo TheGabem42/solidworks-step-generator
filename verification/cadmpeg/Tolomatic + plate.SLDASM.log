@@ -1,0 +1,54 @@
+
+decode report (sldprt): geometry_transferred=true, container_only=false
+dialect: sldprt:sw-version-12000-plus — read detected, write targets unknown
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+losses:
+  [warning/topology] No body record was available; one body/region/shell hierarchy was derived.
+  [warning/design_intent] 5 configuration record(s) have unresolved body membership; 0 configuration record(s) contain missing or repeated body references.
+  [warning/design_intent] 1 semantic dimension record(s) are not bound to parameters; 0 parameter dimension(s) retain native subtypes.
+  note: outer version word: 0x00000004; 63 CRC-validated block(s), 2 tail-directory entry/entries, 23 cache-cell(s), 0 compound stream(s)
+  note: no unique active Parasolid partition located; available B-rep sites remain decodable
+  note: Parasolid body streams supply the typed topology and analytic carriers used by decode
+
+check: OK (0 error(s), 0 warning(s))
+  attributes: 3
+  bodies: 1
+  coedges: 36
+  configurations: 5
+  curves: 18
+  edges: 18
+  faces: 9
+  features: 35
+  loops: 12
+  native.sldprt.configurations: 5
+  native.sldprt.feature_histories: 1
+  native.sldprt.feature_input_classes: 44
+  native.sldprt.feature_input_generated_surface_identities: 14
+  native.sldprt.feature_input_lanes: 1
+  native.sldprt.feature_input_names: 25
+  native.sldprt.features: 35
+  native.sldprt.pmi_dimensions: 1
+  native.sldprt.sketch_input_entities: 17
+  native.sldprt.unknowns: 63
+  pcurves: 36
+  points: 12
+  regions: 1
+  shells: 1
+  sketch_constraints: 4
+  sketch_entities: 11
+  sketches: 1
+  surfaces: 9
+  vertices: 12
+wrote verification/cadmpeg/Tolomatic + plate.SLDASM.step (389 entities)
+step export losses:
+  [info/design_intent] 56 parametric/design record(s) were not represented in STEP: feature=35, configuration=5, sketch=1, sketch entity=11, sketch constraint=4
+  [info/other] 63 uninterpreted passthrough record(s) were not represented in STEP
+  [info/attribute] 3 source attribute record(s) were not written to STEP
+  [info/design_intent] 143 source-native record(s) were not represented in STEP
+wrote report verification/cadmpeg/Tolomatic + plate.SLDASM.report.json

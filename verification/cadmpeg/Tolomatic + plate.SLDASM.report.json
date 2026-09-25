@@ -1,0 +1,301 @@
+{
+  "command": "convert",
+  "generator": "cadmpeg 0.6.0+g9a520bea6167",
+  "status": "ok",
+  "refusal": null,
+  "decode_report": {
+    "format": "sldprt",
+    "container_only": false,
+    "geometry_transferred": true,
+    "losses": [
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "topology.body-hierarchy-derived",
+          "kind": "topology_gauge_substituted"
+        },
+        "severity": "warning",
+        "message": "No body record was available; one body/region/shell hierarchy was derived."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.incoherent-body-refs",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "5 configuration record(s) have unresolved body membership; 0 configuration record(s) contain missing or repeated body references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "pmi.dimension-unbound",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "1 semantic dimension record(s) are not bound to parameters; 0 parameter dimension(s) retain native subtypes."
+      }
+    ],
+    "notes": [
+      "outer version word: 0x00000004; 63 CRC-validated block(s), 2 tail-directory entry/entries, 23 cache-cell(s), 0 compound stream(s)",
+      "no unique active Parasolid partition located; available B-rep sites remain decodable",
+      "Parasolid body streams supply the typed topology and analytic carriers used by decode"
+    ],
+    "dialects": {
+      "primary": {
+        "format": "sldprt",
+        "dialect": "sldprt:sw-version-12000-plus",
+        "declared": {
+          "sw_version": "19000"
+        },
+        "admission": "admitted"
+      },
+      "extra": [
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@25510:Contents/Config-1-ResolvedFeatures+22694",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@25510:Contents/Config-1-ResolvedFeatures+22694",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@4700762:ImportedComp/21921020_21920290_21920290-519810-1_1.step.SLDPRT+555",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@4700762:ImportedComp/21921020_21920290_21920290-519810-1_1.step.SLDPRT+555",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@9062839:VirtualComp/Part27-sldprt+8592",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@9062839:VirtualComp/Part27-sldprt+8592",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@9062839:VirtualComp/Part27-sldprt+11138",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@9062839:VirtualComp/Part27-sldprt+11138",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@9062839:VirtualComp/Part27-sldprt+15929",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@9062839:VirtualComp/Part27-sldprt+15929",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@9144817:ImportedComp/21921020_21920290_21920290-519810-1.step.SLDPRT+859",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@9144817:ImportedComp/21921020_21920290_21920290-519810-1.step.SLDPRT+859",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@9172493:ImportedComp/21921020_21920290_21920290-519810-1_2.step.SLDPRT+426",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@9172493:ImportedComp/21921020_21920290_21920290-519810-1_2.step.SLDPRT+426",
+          "admission": "admitted"
+        }
+      ]
+    }
+  },
+  "check_report": {
+    "entity_counts": {
+      "appearance_bindings": 0,
+      "appearances": 0,
+      "assembly_joints": 0,
+      "assets": 0,
+      "attributes": 3,
+      "bodies": 1,
+      "coedges": 36,
+      "configurations": 5,
+      "curves": 18,
+      "drawings": 0,
+      "edges": 18,
+      "faces": 9,
+      "feature_input_topologies": 0,
+      "feature_result_topologies": 0,
+      "features": 35,
+      "loops": 12,
+      "native.sldprt.configurations": 5,
+      "native.sldprt.feature_histories": 1,
+      "native.sldprt.feature_input_classes": 44,
+      "native.sldprt.feature_input_generated_surface_identities": 14,
+      "native.sldprt.feature_input_lanes": 1,
+      "native.sldprt.feature_input_names": 25,
+      "native.sldprt.features": 35,
+      "native.sldprt.pmi_dimensions": 1,
+      "native.sldprt.sketch_input_entities": 17,
+      "native.sldprt.unknowns": 63,
+      "occurrences": 0,
+      "parameters": 0,
+      "pcurves": 36,
+      "pmi": 0,
+      "points": 12,
+      "presentation_documents": 0,
+      "presentation_layers": 0,
+      "procedural_curves": 0,
+      "procedural_surfaces": 0,
+      "product_definitions": 0,
+      "regions": 1,
+      "semantic_annotations": 0,
+      "shells": 1,
+      "sketch_constraints": 4,
+      "sketch_entities": 11,
+      "sketches": 1,
+      "spatial_sketch_constraints": 0,
+      "spatial_sketch_entities": 0,
+      "spatial_sketches": 0,
+      "spreadsheets": 0,
+      "subds": 0,
+      "surfaces": 9,
+      "surfaces_unknown_geometry": 0,
+      "tessellations": 0,
+      "vertices": 12,
+      "view_presentations": 0
+    },
+    "findings": [],
+    "losses": [
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "topology.body-hierarchy-derived",
+          "kind": "topology_gauge_substituted"
+        },
+        "severity": "warning",
+        "message": "No body record was available; one body/region/shell hierarchy was derived."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.incoherent-body-refs",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "5 configuration record(s) have unresolved body membership; 0 configuration record(s) contain missing or repeated body references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "pmi.dimension-unbound",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "1 semantic dimension record(s) are not bound to parameters; 0 parameter dimension(s) retain native subtypes."
+      }
+    ]
+  },
+  "export": {
+    "format": "step",
+    "census": {
+      "basis": "target_records",
+      "counts": {
+        "ADVANCED_BREP_SHAPE_REPRESENTATION": 1,
+        "ADVANCED_FACE": 9,
+        "APPLICATION_CONTEXT": 1,
+        "APPLICATION_PROTOCOL_DEFINITION": 1,
+        "AXIS2_PLACEMENT_2D": 8,
+        "AXIS2_PLACEMENT_3D": 18,
+        "CARTESIAN_POINT": 38,
+        "CIRCLE": 16,
+        "CLOSED_SHELL": 1,
+        "CYLINDRICAL_SURFACE": 4,
+        "DEFINITIONAL_REPRESENTATION": 36,
+        "DIRECTION": 17,
+        "EDGE_CURVE": 18,
+        "EDGE_LOOP": 12,
+        "FACE_BOUND": 3,
+        "FACE_OUTER_BOUND": 9,
+        "GEOMETRIC_REPRESENTATION_CONTEXT": 2,
+        "LENGTH_UNIT": 1,
+        "LINE": 38,
+        "MANIFOLD_SOLID_BREP": 1,
+        "ORIENTED_EDGE": 36,
+        "PCURVE": 36,
+        "PLANE": 5,
+        "PLANE_ANGLE_UNIT": 1,
+        "PRODUCT": 1,
+        "PRODUCT_CONTEXT": 1,
+        "PRODUCT_DEFINITION": 1,
+        "PRODUCT_DEFINITION_CONTEXT": 1,
+        "PRODUCT_DEFINITION_FORMATION": 1,
+        "PRODUCT_DEFINITION_SHAPE": 1,
+        "SHAPE_DEFINITION_REPRESENTATION": 1,
+        "SOLID_ANGLE_UNIT": 1,
+        "SURFACE_CURVE": 18,
+        "UNCERTAINTY_MEASURE_WITH_UNIT": 1,
+        "VECTOR": 38,
+        "VERTEX_POINT": 12
+      }
+    },
+    "fidelity": {
+      "status": "not_consumed"
+    },
+    "write_path": "synthesized",
+    "losses": [
+      {
+        "code": {
+          "namespace": "step",
+          "code": "design.parametric-records-omitted",
+          "kind": "parametric_record_omitted"
+        },
+        "severity": "info",
+        "message": "56 parametric/design record(s) were not represented in STEP: feature=35, configuration=5, sketch=1, sketch entity=11, sketch constraint=4"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "native.passthrough-record-omitted",
+          "kind": "passthrough_record_omitted"
+        },
+        "severity": "info",
+        "message": "63 uninterpreted passthrough record(s) were not represented in STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "attribute.source-record-not-written",
+          "kind": "attributes_not_transferred"
+        },
+        "severity": "info",
+        "message": "3 source attribute record(s) were not written to STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "native.source-record-omitted",
+          "kind": "parametric_record_omitted"
+        },
+        "severity": "info",
+        "message": "143 source-native record(s) were not represented in STEP"
+      }
+    ],
+    "notes": [],
+    "target": "step:ap214"
+  }
+}

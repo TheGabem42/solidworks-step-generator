@@ -1,0 +1,77 @@
+
+decode report (sldprt): geometry_transferred=true, container_only=false
+dialect: sldprt:sw-version-12000-plus — read detected, write targets unknown
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+losses:
+  [warning/geometry] 1 face(s) rest on a support surface whose stored carrier this codec does not type; the face, its loops, and trims are emitted with an unknown-geometry surface linking to the preserved record bytes. Topology is transferred; the underlying surface shape is not.
+  [warning/topology] 6 DisplayLists tessellation table(s) do not resolve to B-rep face ownership. Geometry and native channels are retained without fabricating body or face references.
+  [warning/design_intent] 1 planar or spatial sketch constraint(s) retain native relation kinds and operands without complete neutral geometric semantics.
+  [warning/design_intent] 2 sketch entity geometry record(s) retain native kinds without solved neutral geometry.
+  note: outer version word: 0x00000004; 42 CRC-validated block(s), 2 tail-directory entry/entries, 13 cache-cell(s), 0 compound stream(s)
+  note: active Parasolid B-rep candidate: Contents/Config-0-Partition (50852 bytes, schema SCH_3701250_37102_13006)
+  note: Parasolid body streams supply the typed topology and analytic carriers used by decode
+
+check: OK (0 error(s), 0 warning(s))
+  appearances: 4
+  attributes: 5
+  bodies: 1
+  coedges: 230
+  configurations: 1
+  curves: 112
+  edges: 115
+  faces: 43
+  features: 38
+  loops: 57
+  native.sldprt.configurations: 1
+  native.sldprt.feature_histories: 1
+  native.sldprt.feature_input_classes: 81
+  native.sldprt.feature_input_edge_selections: 12
+  native.sldprt.feature_input_generated_surface_identities: 156
+  native.sldprt.feature_input_lanes: 1
+  native.sldprt.feature_input_names: 80
+  native.sldprt.feature_input_references: 7
+  native.sldprt.feature_input_relation_bindings: 1
+  native.sldprt.feature_input_relation_instances: 1
+  native.sldprt.feature_input_scalars: 46
+  native.sldprt.features: 38
+  native.sldprt.pmi_dimensions: 18
+  native.sldprt.sketch_input_entities: 201
+  native.sldprt.unknowns: 43
+  parameters: 19
+  pcurves: 217
+  points: 74
+  procedural_surfaces: 1
+  regions: 2
+  shells: 1
+  sketch_constraints: 49
+  sketch_entities: 97
+  sketches: 8
+  surfaces: 43
+  surfaces_unknown_geometry: 1
+  tessellations: 43
+  vertices: 74
+wrote verification/cadmpeg/throttle mount.SLDPRT.step (2259 entities)
+step export losses:
+  [error/topology] shell sldprt:brep:shell#7 omitted face sldprt:brep:face#612 because the face has no writable topology
+  [error/topology] shell sldprt:brep:shell#7 omitted face sldprt:brep:face#782 because the face has no writable topology
+  [warning/geometry] 43 tessellation(s) require an AP242 target; AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 } does not carry tessellated geometry
+  [warning/geometry] 2 face(s) rest on an unknown or STEP-unsupported surface and were omitted from the STEP shell (an ADVANCED_FACE requires a surface); their topology remains in the IR
+  [warning/geometry] 2 geometry carrier(s) were not written: 'sldprt:brep:surf#612', 'sldprt:brep:surf#782'
+  [error/topology] 1 region(s) have no shell list and were not written to STEP: 'sldprt:brep:region#11'
+  [info/geometry] 9 emitted coedge pcurve(s) carry native-only metadata not represented in STEP
+  [info/geometry] 9 pcurve use(s) carry native-only parameter metadata not represented in STEP
+  [info/design_intent] 212 parametric/design record(s) were not represented in STEP: feature=38, configuration=1, parameter=19, sketch=8, sketch entity=97, sketch constraint=49
+  [info/other] 43 uninterpreted passthrough record(s) were not represented in STEP
+  [info/material] 4 appearance asset(s) were reduced to STYLED_ITEM base colors; unsupported schemas, textures, and shader properties were not written to STEP
+  [info/attribute] 5 source attribute record(s) were not written to STEP
+  [info/geometry] 1 procedural surface definition(s) and 0 procedural curve definition(s) were reduced to their solved STEP carriers
+  [info/design_intent] 644 source-native record(s) were not represented in STEP
+wrote report verification/cadmpeg/throttle mount.SLDPRT.report.json

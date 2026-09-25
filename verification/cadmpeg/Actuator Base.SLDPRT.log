@@ -1,0 +1,91 @@
+
+decode report (sldprt): geometry_transferred=true, container_only=false
+dialect: sldprt:sw-version-12000-plus — read detected, write targets unknown
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+losses:
+  [warning/geometry] 108 edge(s) reference an untyped support curve; topology references an opaque curve carrier linked to the retained partition.
+  [warning/topology] 75 DisplayLists tessellation table(s) do not resolve to B-rep face ownership. Geometry and native channels are retained without fabricating body or face references.
+  [warning/design_intent] 3 configuration state(s) are inferred from geometry partitions without native configuration definitions.
+  [warning/design_intent] 3 configuration record(s) have unresolved body membership; 0 configuration record(s) contain missing or repeated body references.
+  [warning/design_intent] 1 configuration(s) lack a complete evaluated feature snapshot; 1 configuration(s) lack a complete evaluated parameter snapshot.
+  [warning/design_intent] 4 semantic dimension record(s) are not bound to parameters; 28 parameter dimension(s) retain native subtypes.
+  [warning/design_intent] 4 feature record(s) contain missing, repeated, misowned, or structurally inconsistent source-content references.
+  [warning/design_intent] 2 planar or spatial sketch constraint(s) retain native relation kinds and operands without complete neutral geometric semantics.
+  [warning/design_intent] 10 sketch entity geometry record(s) retain native kinds without solved neutral geometry.
+  [warning/design_intent] 20 feature(s) retain their native kind without a complete neutral operation definition.
+  [warning/design_intent] 18 typed feature(s) retain native or unresolved required operation operands.
+  note: outer version word: 0x00000004; 55 CRC-validated block(s), 2 tail-directory entry/entries, 15 cache-cell(s), 0 compound stream(s)
+  note: no unique active Parasolid partition located; available B-rep sites remain decodable
+  note: Parasolid body streams supply the typed topology and analytic carriers used by decode
+
+check: FAILED (4 error(s), 0 warning(s))
+  appearances: 9
+  attributes: 9
+  bodies: 32
+  coedges: 1436
+  configurations: 6
+  curves: 710
+  edges: 718
+  faces: 306
+  features: 88
+  loops: 378
+  native.sldprt.configurations: 3
+  native.sldprt.feature_histories: 1
+  native.sldprt.feature_input_classes: 238
+  native.sldprt.feature_input_generated_surface_identities: 357
+  native.sldprt.feature_input_lanes: 2
+  native.sldprt.feature_input_names: 528
+  native.sldprt.feature_input_references: 20
+  native.sldprt.feature_input_relation_bindings: 2
+  native.sldprt.feature_input_relation_instances: 2
+  native.sldprt.feature_input_scalars: 288
+  native.sldprt.features: 88
+  native.sldprt.pmi_dimensions: 212
+  native.sldprt.sketch_input_entities: 776
+  native.sldprt.unknowns: 56
+  parameters: 106
+  pcurves: 1220
+  points: 480
+  regions: 64
+  shells: 32
+  sketch_constraints: 180
+  sketch_entities: 422
+  sketches: 30
+  surfaces: 306
+  tessellations: 77
+  vertices: 480
+  [error/referential_integrity] content child `sldprt:model:feature#354528:12` does not follow its parent (sldprt:model:feature#354528:11)
+  [error/referential_integrity] content child `sldprt:model:feature#354528:17` does not follow its parent (sldprt:model:feature#354528:16)
+  [error/referential_integrity] content child `sldprt:model:feature#354528:42` does not follow its parent (sldprt:model:feature#354528:41)
+  [error/referential_integrity] content child `sldprt:model:feature#354528:61` does not follow its parent (sldprt:model:feature#354528:60)
+wrote report verification/cadmpeg/Actuator Base.SLDPRT.report.json
+error: check found 4 error(s); refusing to export (use --allow-errors to override)

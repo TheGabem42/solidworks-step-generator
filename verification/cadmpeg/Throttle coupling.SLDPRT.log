@@ -1,0 +1,80 @@
+
+decode report (sldprt): geometry_transferred=true, container_only=false
+dialect: sldprt:sw-version-12000-plus — read detected, write targets unknown
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+dialect: parasolid:format-13006
+losses:
+  [warning/geometry] 1 edge(s) reference an untyped support curve; topology references an opaque curve carrier linked to the retained partition.
+  [warning/geometry] 1 NURBS edge carrier(s) have vertex ranges off their bound B-spline surface; pcurve derivation is withheld because the defect is upstream of parameter-space geometry.
+  [warning/design_intent] 0 configuration(s) lack a complete evaluated feature snapshot; 1 configuration(s) lack a complete evaluated parameter snapshot.
+  [warning/design_intent] 2 parameter(s) lack an evaluated scalar; 0 parameter expression(s) contain unresolved, ambiguous, or malformed parameter references; 0 parameter expression(s) cannot regenerate a finite typed value; 0 parameter record(s) contain missing or non-preceding dependency edges; 0 parameter record(s) have dependency edges inconsistent with their expressions; 0 dependency-driven parameter(s) disagree with their evaluated expressions.
+  [warning/design_intent] 0 semantic dimension record(s) are not bound to parameters; 3 parameter dimension(s) retain native subtypes.
+  [warning/design_intent] 1 feature(s) retain their native kind without a complete neutral operation definition.
+  [warning/design_intent] 2 typed feature(s) retain native or unresolved required operation operands.
+  note: outer version word: 0x00000004; 42 CRC-validated block(s), 2 tail-directory entry/entries, 15 cache-cell(s), 0 compound stream(s)
+  note: active Parasolid B-rep candidate: Contents/Config-0-Partition (266637 bytes, schema SCH_3701250_37102_13006)
+  note: Parasolid body streams supply the typed topology and analytic carriers used by decode
+
+check: OK (0 error(s), 0 warning(s))
+  appearances: 5
+  attributes: 5
+  bodies: 1
+  coedges: 16
+  configurations: 1
+  curves: 12
+  edges: 12
+  faces: 6
+  features: 37
+  loops: 6
+  native.sldprt.configurations: 1
+  native.sldprt.feature_histories: 1
+  native.sldprt.feature_input_classes: 95
+  native.sldprt.feature_input_generated_surface_identities: 18
+  native.sldprt.feature_input_lanes: 1
+  native.sldprt.feature_input_names: 175
+  native.sldprt.feature_input_references: 6
+  native.sldprt.feature_input_relation_bindings: 1
+  native.sldprt.feature_input_relation_instances: 1
+  native.sldprt.feature_input_scalars: 137
+  native.sldprt.features: 37
+  native.sldprt.pmi_dimensions: 24
+  native.sldprt.sketch_input_entities: 75
+  native.sldprt.unknowns: 43
+  parameters: 29
+  pcurves: 10
+  points: 10
+  regions: 2
+  shells: 3
+  sketch_constraints: 4
+  sketch_entities: 62
+  sketches: 7
+  surfaces: 6
+  tessellations: 20
+  vertices: 10
+wrote verification/cadmpeg/Throttle coupling.SLDPRT.step (1395 entities)
+step export losses:
+  [warning/topology] edge sldprt:brep:edge#563 was omitted because curve sldprt:brep:curve#604 is unsupported
+  [error/topology] loop sldprt:brep:loop#776 has no continuous vertex-to-vertex coedge ordering
+  [error/topology] face sldprt:brep:face#444 omitted loop sldprt:brep:loop#776 because the loop has no writable topology
+  [error/topology] face sldprt:brep:face#444 has no writable bounds
+  [error/topology] shell sldprt:brep:shell#8.component-1 omitted face sldprt:brep:face#444 because the face has no writable topology
+  [warning/geometry] 20 tessellation(s) require an AP242 target; AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 } does not carry tessellated geometry
+  [warning/geometry] 1 edge(s) have no typed 3D curve or carry a STEP-unsupported transform and were omitted from their edge loops (STEP EDGE_CURVE requires a 3D curve)
+  [warning/geometry] 1 geometry carrier(s) were not written: 'sldprt:brep:curve#604'
+  [warning/geometry] 2 coedge pcurve carrier(s) use geometry or surface references that were not writable: 'sldprt:brep:pcurve#cylinder:591', 'sldprt:brep:pcurve#cylinder:626'
+  [error/topology] 1 region(s) have no shell list and were not written to STEP: 'sldprt:brep:region#12'
+  [info/geometry] 2 emitted coedge pcurve(s) carry native-only metadata not represented in STEP
+  [info/design_intent] 140 parametric/design record(s) were not represented in STEP: feature=37, configuration=1, parameter=29, sketch=7, sketch entity=62, sketch constraint=4
+  [info/other] 43 uninterpreted passthrough record(s) were not represented in STEP
+  [info/material] 5 appearance asset(s) were reduced to STYLED_ITEM base colors; unsupported schemas, textures, and shader properties were not written to STEP
+  [info/attribute] 5 source attribute record(s) were not written to STEP
+  [info/design_intent] 572 source-native record(s) were not represented in STEP
+wrote report verification/cadmpeg/Throttle coupling.SLDPRT.report.json

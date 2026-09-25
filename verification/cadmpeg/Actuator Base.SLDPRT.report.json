@@ -1,0 +1,621 @@
+{
+  "command": "convert",
+  "generator": "cadmpeg 0.6.0+g9a520bea6167",
+  "status": "refused",
+  "refusal": {
+    "stage": "check",
+    "code": "check_failed",
+    "message": "check found 4 error(s); refusing to export (use --allow-errors to override)"
+  },
+  "decode_report": {
+    "format": "sldprt",
+    "container_only": false,
+    "geometry_transferred": true,
+    "losses": [
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "geometry.edge-support-curve-untyped",
+          "kind": "geometry_not_transferred"
+        },
+        "severity": "warning",
+        "message": "108 edge(s) reference an untyped support curve; topology references an opaque curve carrier linked to the retained partition."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "tessellation.face-ownership-unresolved",
+          "kind": "reference_graph_not_closed"
+        },
+        "severity": "warning",
+        "message": "75 DisplayLists tessellation table(s) do not resolve to B-rep face ownership. Geometry and native channels are retained without fabricating body or face references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.inferred-without-native",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "3 configuration state(s) are inferred from geometry partitions without native configuration definitions."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.incoherent-body-refs",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "3 configuration record(s) have unresolved body membership; 0 configuration record(s) contain missing or repeated body references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.incomplete-snapshot",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "1 configuration(s) lack a complete evaluated feature snapshot; 1 configuration(s) lack a complete evaluated parameter snapshot."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "pmi.dimension-unbound",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "4 semantic dimension record(s) are not bound to parameters; 28 parameter dimension(s) retain native subtypes."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.incoherent-content",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "4 feature record(s) contain missing, repeated, misowned, or structurally inconsistent source-content references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "sketch.native-constraint",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "2 planar or spatial sketch constraint(s) retain native relation kinds and operands without complete neutral geometric semantics."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "sketch.native-geometry",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "10 sketch entity geometry record(s) retain native kinds without solved neutral geometry."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.native-kind-retained",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "20 feature(s) retain their native kind without a complete neutral operation definition."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.typed-operand-incomplete",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "18 typed feature(s) retain native or unresolved required operation operands."
+      }
+    ],
+    "notes": [
+      "outer version word: 0x00000004; 55 CRC-validated block(s), 2 tail-directory entry/entries, 15 cache-cell(s), 0 compound stream(s)",
+      "no unique active Parasolid partition located; available B-rep sites remain decodable",
+      "Parasolid body streams supply the typed topology and analytic carriers used by decode"
+    ],
+    "dialects": {
+      "primary": {
+        "format": "sldprt",
+        "dialect": "sldprt:sw-version-12000-plus",
+        "declared": {
+          "sw_version": "19000"
+        },
+        "admission": "admitted"
+      },
+      "extra": [
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@11114:Contents/CnfgObjs+375",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@11114:Contents/CnfgObjs+375",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@11114:Contents/CnfgObjs+8019",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@11114:Contents/CnfgObjs+8019",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@11114:Contents/CnfgObjs+17294",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@11114:Contents/CnfgObjs+17294",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@22664:Contents/Config-1-GhostPartition+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@22664:Contents/Config-1-GhostPartition+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@29220:Contents/Config-1-Partition+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@29220:Contents/Config-1-Partition+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@29220:Contents/Config-1-Partition+37790",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@29220:Contents/Config-1-Partition+37790",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@87221:Contents/Config-1-ResolvedFeatures+24952",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@87221:Contents/Config-1-ResolvedFeatures+24952",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@87221:Contents/Config-1-ResolvedFeatures+49136",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@87221:Contents/Config-1-ResolvedFeatures+49136",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@87221:Contents/Config-1-ResolvedFeatures+80981",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@87221:Contents/Config-1-ResolvedFeatures+80981",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@87221:Contents/Config-1-ResolvedFeatures+96331",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@87221:Contents/Config-1-ResolvedFeatures+96331",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@87221:Contents/Config-1-ResolvedFeatures+114529",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@87221:Contents/Config-1-ResolvedFeatures+114529",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@87221:Contents/Config-1-ResolvedFeatures+122705",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@87221:Contents/Config-1-ResolvedFeatures+122705",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@87221:Contents/Config-1-ResolvedFeatures+184851",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@87221:Contents/Config-1-ResolvedFeatures+184851",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@87221:Contents/Config-1-ResolvedFeatures+221342",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@87221:Contents/Config-1-ResolvedFeatures+221342",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@87221:Contents/Config-1-ResolvedFeatures+243776",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@87221:Contents/Config-1-ResolvedFeatures+243776",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@158872:Contents/Config-1-TabAndSlotBodies+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@158872:Contents/Config-1-TabAndSlotBodies+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@178283:Contents/Config-2-GhostPartition+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@178283:Contents/Config-2-GhostPartition+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@184960:Contents/Config-2-Partition+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@184960:Contents/Config-2-Partition+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@184960:Contents/Config-2-Partition+34215",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@184960:Contents/Config-2-Partition+34215",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@242311:Contents/Config-2-ResolvedFeatures+24930",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@242311:Contents/Config-2-ResolvedFeatures+24930",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@242311:Contents/Config-2-ResolvedFeatures+49172",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@242311:Contents/Config-2-ResolvedFeatures+49172",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@242311:Contents/Config-2-ResolvedFeatures+81189",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@242311:Contents/Config-2-ResolvedFeatures+81189",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@242311:Contents/Config-2-ResolvedFeatures+96640",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@242311:Contents/Config-2-ResolvedFeatures+96640",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@242311:Contents/Config-2-ResolvedFeatures+114940",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@242311:Contents/Config-2-ResolvedFeatures+114940",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@242311:Contents/Config-2-ResolvedFeatures+123223",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@242311:Contents/Config-2-ResolvedFeatures+123223",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@242311:Contents/Config-2-ResolvedFeatures+185541",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@242311:Contents/Config-2-ResolvedFeatures+185541",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@242311:Contents/Config-2-ResolvedFeatures+222184",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@242311:Contents/Config-2-ResolvedFeatures+222184",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@242311:Contents/Config-2-ResolvedFeatures+244718",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@242311:Contents/Config-2-ResolvedFeatures+244718",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@356295:Contents/Config-0-TabAndSlotBodies+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@356295:Contents/Config-0-TabAndSlotBodies+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@372072:Contents/Config-2-TabAndSlotBodies+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@372072:Contents/Config-2-TabAndSlotBodies+0",
+          "admission": "admitted"
+        }
+      ]
+    }
+  },
+  "check_report": {
+    "entity_counts": {
+      "appearance_bindings": 0,
+      "appearances": 9,
+      "assembly_joints": 0,
+      "assets": 0,
+      "attributes": 9,
+      "bodies": 32,
+      "coedges": 1436,
+      "configurations": 6,
+      "curves": 710,
+      "drawings": 0,
+      "edges": 718,
+      "faces": 306,
+      "feature_input_topologies": 0,
+      "feature_result_topologies": 0,
+      "features": 88,
+      "loops": 378,
+      "native.sldprt.configurations": 3,
+      "native.sldprt.feature_histories": 1,
+      "native.sldprt.feature_input_classes": 238,
+      "native.sldprt.feature_input_generated_surface_identities": 357,
+      "native.sldprt.feature_input_lanes": 2,
+      "native.sldprt.feature_input_names": 528,
+      "native.sldprt.feature_input_references": 20,
+      "native.sldprt.feature_input_relation_bindings": 2,
+      "native.sldprt.feature_input_relation_instances": 2,
+      "native.sldprt.feature_input_scalars": 288,
+      "native.sldprt.features": 88,
+      "native.sldprt.pmi_dimensions": 212,
+      "native.sldprt.sketch_input_entities": 776,
+      "native.sldprt.unknowns": 56,
+      "occurrences": 0,
+      "parameters": 106,
+      "pcurves": 1220,
+      "pmi": 0,
+      "points": 480,
+      "presentation_documents": 0,
+      "presentation_layers": 0,
+      "procedural_curves": 0,
+      "procedural_surfaces": 0,
+      "product_definitions": 0,
+      "regions": 64,
+      "semantic_annotations": 0,
+      "shells": 32,
+      "sketch_constraints": 180,
+      "sketch_entities": 422,
+      "sketches": 30,
+      "spatial_sketch_constraints": 0,
+      "spatial_sketch_entities": 0,
+      "spatial_sketches": 0,
+      "spreadsheets": 0,
+      "subds": 0,
+      "surfaces": 306,
+      "surfaces_unknown_geometry": 0,
+      "tessellations": 77,
+      "vertices": 480,
+      "view_presentations": 0
+    },
+    "findings": [
+      {
+        "check": "referential_integrity",
+        "severity": "error",
+        "message": "content child `sldprt:model:feature#354528:12` does not follow its parent",
+        "entity": "sldprt:model:feature#354528:11"
+      },
+      {
+        "check": "referential_integrity",
+        "severity": "error",
+        "message": "content child `sldprt:model:feature#354528:17` does not follow its parent",
+        "entity": "sldprt:model:feature#354528:16"
+      },
+      {
+        "check": "referential_integrity",
+        "severity": "error",
+        "message": "content child `sldprt:model:feature#354528:42` does not follow its parent",
+        "entity": "sldprt:model:feature#354528:41"
+      },
+      {
+        "check": "referential_integrity",
+        "severity": "error",
+        "message": "content child `sldprt:model:feature#354528:61` does not follow its parent",
+        "entity": "sldprt:model:feature#354528:60"
+      }
+    ],
+    "losses": [
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "geometry.edge-support-curve-untyped",
+          "kind": "geometry_not_transferred"
+        },
+        "severity": "warning",
+        "message": "108 edge(s) reference an untyped support curve; topology references an opaque curve carrier linked to the retained partition."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "tessellation.face-ownership-unresolved",
+          "kind": "reference_graph_not_closed"
+        },
+        "severity": "warning",
+        "message": "75 DisplayLists tessellation table(s) do not resolve to B-rep face ownership. Geometry and native channels are retained without fabricating body or face references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.inferred-without-native",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "3 configuration state(s) are inferred from geometry partitions without native configuration definitions."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.incoherent-body-refs",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "3 configuration record(s) have unresolved body membership; 0 configuration record(s) contain missing or repeated body references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.incomplete-snapshot",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "1 configuration(s) lack a complete evaluated feature snapshot; 1 configuration(s) lack a complete evaluated parameter snapshot."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "pmi.dimension-unbound",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "4 semantic dimension record(s) are not bound to parameters; 28 parameter dimension(s) retain native subtypes."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.incoherent-content",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "4 feature record(s) contain missing, repeated, misowned, or structurally inconsistent source-content references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "sketch.native-constraint",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "2 planar or spatial sketch constraint(s) retain native relation kinds and operands without complete neutral geometric semantics."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "sketch.native-geometry",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "10 sketch entity geometry record(s) retain native kinds without solved neutral geometry."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.native-kind-retained",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "20 feature(s) retain their native kind without a complete neutral operation definition."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.typed-operand-incomplete",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "18 typed feature(s) retain native or unresolved required operation operands."
+      }
+    ]
+  },
+  "export": null
+}

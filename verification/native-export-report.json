@@ -1,0 +1,392 @@
+﻿[
+    {
+        "source":  "21920290_21920290-519810-1.SLDASM",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\21920290_21920290-519810-1.SLDASM.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Actuator Base.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Actuator Base.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Actuator-throttle coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Actuator-throttle coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Cable Actuator Coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Cable Actuator Coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "enclosure assembly.SLDASM",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\enclosure assembly.SLDASM.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "mock throttle.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\mock throttle.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "New\\Tolomatic + plate.SLDASM",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\New\\Tolomatic + plate.SLDASM.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "New\\Vessel-Interface-Box-V3-Actuator-Base.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\New\\Vessel-Interface-Box-V3-Actuator-Base.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "New\\Vessel-Interface-Box-V3-actuator-throttle-coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\New\\Vessel-Interface-Box-V3-actuator-throttle-coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "New\\Vessel-Interface-Box-V3-Cable-Actuator-Coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\New\\Vessel-Interface-Box-V3-Cable-Actuator-Coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "New\\Vessel-Interface-Box-V3-Main-Assembly.SLDASM",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\New\\Vessel-Interface-Box-V3-Main-Assembly.SLDASM.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "New\\Vessel-Interface-Box-V3-throttle-mount.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\New\\Vessel-Interface-Box-V3-throttle-mount.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "New\\Vessel-Interface-Box-V3-throttle-sensor-coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\New\\Vessel-Interface-Box-V3-throttle-sensor-coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "New\\Vessel-Interface-Box-V3-Tolomatic+plate-throttle.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\New\\Vessel-Interface-Box-V3-Tolomatic+plate-throttle.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Old\\Actuator Base.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Old\\Actuator Base.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Old\\Actuator-throttle coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Old\\Actuator-throttle coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Old\\Cable Actuator Coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Old\\Cable Actuator Coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Old\\enclosure assembly.SLDASM",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Old\\enclosure assembly.SLDASM.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Old\\mock throttle.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Old\\mock throttle.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Old\\Throttle coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Old\\Throttle coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Old\\throttle mount.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Old\\throttle mount.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Old\\throttle sensor coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Old\\throttle sensor coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Steps\\steering, long.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Steps\\steering, long.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "Throttle coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\Throttle coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "throttle mount.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\throttle mount.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    },
+    {
+        "source":  "throttle sensor coupling.SLDPRT",
+        "output":  "\\\\Mac\\Home\\Desktop\\codes\\solidworks step generator\\sample step files\\STEP exports\\throttle sensor coupling.SLDPRT.step",
+        "configuration":  "",
+        "status":  "failed",
+        "message":  "Newer-version file: installed SOLIDWORKS 33.4.1 cannot open this model. Use SOLIDWORKS 2026 or newer for the supplied examples.",
+        "excluded":  [
+
+                     ],
+        "openErrors":  8192,
+        "openWarnings":  0,
+        "saveErrors":  0,
+        "saveWarnings":  0,
+        "nativeGeometry":  null
+    }
+]

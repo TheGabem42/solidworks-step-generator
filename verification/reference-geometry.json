@@ -1,0 +1,220 @@
+{
+  "kernel": "FreeCAD/OpenCascade",
+  "freecad_version": [
+    "1",
+    "1",
+    "0",
+    "20260325 (Git shallow)",
+    "Unknown",
+    "2026/03/25 02:17:53",
+    "(HEAD detached at 34a971666)",
+    "34a9716668b1ddeb55b914f1c5be644826bdbbbf"
+  ],
+  "reference_inspections": [
+    {
+      "file": "sample step files/Steps/Actuator Base.STEP",
+      "valid": true,
+      "solids": 4,
+      "shells": 4,
+      "faces": 102,
+      "volume_mm3": 156866.35264715872,
+      "area_mm2": 99615.23085259099,
+      "bounds_mm": [
+        -63.91389809102427,
+        -35.369011999999955,
+        -375.0,
+        7.525898091024262,
+        28.524099853918464,
+        174.33546069999994
+      ]
+    },
+    {
+      "file": "sample step files/Steps/ArkCan mount.STEP",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 46,
+      "volume_mm3": 6281.176944359786,
+      "area_mm2": 3795.118721154786,
+      "bounds_mm": [
+        0.0,
+        10.287754873666122,
+        134.03034161391287,
+        10.375,
+        46.10024512633396,
+        169.84283186658067
+      ]
+    },
+    {
+      "file": "sample step files/Steps/Lid.STEP",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 22,
+      "volume_mm3": 384145.5818726452,
+      "area_mm2": 246950.58548860328,
+      "bounds_mm": [
+        0.0,
+        -191.45000000005612,
+        -158.3500000000264,
+        3.175,
+        191.45000000000022,
+        158.3500000000784
+      ]
+    },
+    {
+      "file": "sample step files/Steps/Throttle coupling.STEP",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 75,
+      "volume_mm3": 8477.348628383657,
+      "area_mm2": 5230.271204885439,
+      "bounds_mm": [
+        -9.999999999999998,
+        -9.999999999999998,
+        -1.298836248286337,
+        9.999999999999998,
+        9.999999999999998,
+        40.675
+      ]
+    },
+    {
+      "file": "sample step files/Steps/Tolomatic + plate.STEP",
+      "valid": false,
+      "solids": 15,
+      "shells": 22,
+      "faces": 4282,
+      "volume_mm3": 863566.921751461,
+      "area_mm2": 276773.7579441415,
+      "bounds_mm": [
+        -320.9518527196972,
+        -79.55811875903589,
+        -1.1847857764313297e-13,
+        169.60969269078055,
+        50.05812103354516,
+        87.6168660871039
+      ]
+    },
+    {
+      "file": "sample step files/Steps/actuator throttle coupling.STEP",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 76,
+      "volume_mm3": 8431.336639667286,
+      "area_mm2": 5308.489998046512,
+      "bounds_mm": [
+        -9.999999999999998,
+        -9.999999999999998,
+        -0.9089975147193153,
+        9.999999999999998,
+        9.999999999999998,
+        40.675
+      ]
+    },
+    {
+      "file": "sample step files/Steps/bucket long.STEP",
+      "valid": true,
+      "solids": 4,
+      "shells": 4,
+      "faces": 60,
+      "volume_mm3": 37202.00332240893,
+      "area_mm2": 16985.328667764617,
+      "bounds_mm": [
+        0.0,
+        -35.00000000000001,
+        -18.000000000000004,
+        62.7,
+        35.00000000000001,
+        18.000000000000004
+      ]
+    },
+    {
+      "file": "sample step files/Steps/bucket short.STEP",
+      "valid": true,
+      "solids": 4,
+      "shells": 4,
+      "faces": 60,
+      "volume_mm3": 37086.049101060344,
+      "area_mm2": 16978.731323192078,
+      "bounds_mm": [
+        0.0,
+        -35.00000000000001,
+        -18.000000000000004,
+        62.7,
+        35.00000000000001,
+        18.000000000000004
+      ]
+    },
+    {
+      "file": "sample step files/Steps/coupling.STEP",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 71,
+      "volume_mm3": 7667.112667215387,
+      "area_mm2": 5403.9335591337895,
+      "bounds_mm": [
+        -9.999999999999998,
+        -9.999999999999998,
+        -1.7402608642399913,
+        9.999999999999998,
+        9.999999999999998,
+        40.675
+      ]
+    },
+    {
+      "file": "sample step files/Steps/steering short.STEP",
+      "valid": true,
+      "solids": 4,
+      "shells": 4,
+      "faces": 60,
+      "volume_mm3": 37202.00332240893,
+      "area_mm2": 16985.328667764617,
+      "bounds_mm": [
+        0.0,
+        -35.00000000000001,
+        -18.000000000000004,
+        62.7,
+        35.00000000000001,
+        18.000000000000004
+      ]
+    },
+    {
+      "file": "sample step files/Steps/throttle mount.STEP",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 51,
+      "volume_mm3": 58112.80763914905,
+      "area_mm2": 20660.09010389726,
+      "bounds_mm": [
+        0.0,
+        -83.0546852977948,
+        -51.06300578034681,
+        56.50000000000003,
+        -7.63780025133817,
+        23.13699421965317
+      ]
+    },
+    {
+      "file": "sample step files/Steps/throttle sensor coupling.STEP",
+      "valid": true,
+      "solids": 1,
+      "shells": 1,
+      "faces": 9,
+      "volume_mm3": 536.2176660998713,
+      "area_mm2": 864.4637770922228,
+      "bounds_mm": [
+        -4.73773128656172,
+        -6.25,
+        -4.73773128656172,
+        8.8,
+        6.25,
+        4.73773128656172
+      ]
+    }
+  ],
+  "comparisons": []
+}

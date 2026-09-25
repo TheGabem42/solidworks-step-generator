@@ -1,0 +1,518 @@
+{
+  "command": "convert",
+  "generator": "cadmpeg 0.6.0+g9a520bea6167",
+  "status": "ok",
+  "refusal": null,
+  "decode_report": {
+    "format": "sldprt",
+    "container_only": false,
+    "geometry_transferred": true,
+    "losses": [
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "geometry.edge-support-curve-untyped",
+          "kind": "geometry_not_transferred"
+        },
+        "severity": "warning",
+        "message": "1 edge(s) reference an untyped support curve; topology references an opaque curve carrier linked to the retained partition."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "topology.pcurve-carrier-off-surface",
+          "kind": "pcurve_omitted"
+        },
+        "severity": "warning",
+        "message": "1 NURBS edge carrier(s) have vertex ranges off their bound B-spline surface; pcurve derivation is withheld because the defect is upstream of parameter-space geometry."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.incomplete-snapshot",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "0 configuration(s) lack a complete evaluated feature snapshot; 1 configuration(s) lack a complete evaluated parameter snapshot."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "parameter.unevaluated",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "2 parameter(s) lack an evaluated scalar; 0 parameter expression(s) contain unresolved, ambiguous, or malformed parameter references; 0 parameter expression(s) cannot regenerate a finite typed value; 0 parameter record(s) contain missing or non-preceding dependency edges; 0 parameter record(s) have dependency edges inconsistent with their expressions; 0 dependency-driven parameter(s) disagree with their evaluated expressions."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "pmi.dimension-unbound",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "0 semantic dimension record(s) are not bound to parameters; 3 parameter dimension(s) retain native subtypes."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.native-kind-retained",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "1 feature(s) retain their native kind without a complete neutral operation definition."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.typed-operand-incomplete",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "2 typed feature(s) retain native or unresolved required operation operands."
+      }
+    ],
+    "notes": [
+      "outer version word: 0x00000004; 42 CRC-validated block(s), 2 tail-directory entry/entries, 15 cache-cell(s), 0 compound stream(s)",
+      "active Parasolid B-rep candidate: Contents/Config-0-Partition (266637 bytes, schema SCH_3701250_37102_13006)",
+      "Parasolid body streams supply the typed topology and analytic carriers used by decode"
+    ],
+    "dialects": {
+      "primary": {
+        "format": "sldprt",
+        "dialect": "sldprt:sw-version-12000-plus",
+        "declared": {
+          "sw_version": "19000"
+        },
+        "admission": "admitted"
+      },
+      "extra": [
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@9534:Contents/Config-0-GhostPartition+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@9534:Contents/Config-0-GhostPartition+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@20920:Contents/Config-0-Partition+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@20920:Contents/Config-0-Partition+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@20920:Contents/Config-0-Partition+102542",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@20920:Contents/Config-0-Partition+102542",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@153502:Contents/Config-0-ResolvedFeatures+17368",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@153502:Contents/Config-0-ResolvedFeatures+17368",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@153502:Contents/Config-0-ResolvedFeatures+77607",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@153502:Contents/Config-0-ResolvedFeatures+77607",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@153502:Contents/Config-0-ResolvedFeatures+84804",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@153502:Contents/Config-0-ResolvedFeatures+84804",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@153502:Contents/Config-0-ResolvedFeatures+87841",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@153502:Contents/Config-0-ResolvedFeatures+87841",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@153502:Contents/Config-0-ResolvedFeatures+104025",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@153502:Contents/Config-0-ResolvedFeatures+104025",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@153502:Contents/Config-0-ResolvedFeatures+122347",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@153502:Contents/Config-0-ResolvedFeatures+122347",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@153502:Contents/Config-0-ResolvedFeatures+124889",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@153502:Contents/Config-0-ResolvedFeatures+124889",
+          "admission": "admitted"
+        }
+      ]
+    }
+  },
+  "check_report": {
+    "entity_counts": {
+      "appearance_bindings": 0,
+      "appearances": 5,
+      "assembly_joints": 0,
+      "assets": 0,
+      "attributes": 5,
+      "bodies": 1,
+      "coedges": 16,
+      "configurations": 1,
+      "curves": 12,
+      "drawings": 0,
+      "edges": 12,
+      "faces": 6,
+      "feature_input_topologies": 0,
+      "feature_result_topologies": 0,
+      "features": 37,
+      "loops": 6,
+      "native.sldprt.configurations": 1,
+      "native.sldprt.feature_histories": 1,
+      "native.sldprt.feature_input_classes": 95,
+      "native.sldprt.feature_input_generated_surface_identities": 18,
+      "native.sldprt.feature_input_lanes": 1,
+      "native.sldprt.feature_input_names": 175,
+      "native.sldprt.feature_input_references": 6,
+      "native.sldprt.feature_input_relation_bindings": 1,
+      "native.sldprt.feature_input_relation_instances": 1,
+      "native.sldprt.feature_input_scalars": 137,
+      "native.sldprt.features": 37,
+      "native.sldprt.pmi_dimensions": 24,
+      "native.sldprt.sketch_input_entities": 75,
+      "native.sldprt.unknowns": 43,
+      "occurrences": 0,
+      "parameters": 29,
+      "pcurves": 10,
+      "pmi": 0,
+      "points": 10,
+      "presentation_documents": 0,
+      "presentation_layers": 0,
+      "procedural_curves": 0,
+      "procedural_surfaces": 0,
+      "product_definitions": 0,
+      "regions": 2,
+      "semantic_annotations": 0,
+      "shells": 3,
+      "sketch_constraints": 4,
+      "sketch_entities": 62,
+      "sketches": 7,
+      "spatial_sketch_constraints": 0,
+      "spatial_sketch_entities": 0,
+      "spatial_sketches": 0,
+      "spreadsheets": 0,
+      "subds": 0,
+      "surfaces": 6,
+      "surfaces_unknown_geometry": 0,
+      "tessellations": 20,
+      "vertices": 10,
+      "view_presentations": 0
+    },
+    "findings": [],
+    "losses": [
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "geometry.edge-support-curve-untyped",
+          "kind": "geometry_not_transferred"
+        },
+        "severity": "warning",
+        "message": "1 edge(s) reference an untyped support curve; topology references an opaque curve carrier linked to the retained partition."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "topology.pcurve-carrier-off-surface",
+          "kind": "pcurve_omitted"
+        },
+        "severity": "warning",
+        "message": "1 NURBS edge carrier(s) have vertex ranges off their bound B-spline surface; pcurve derivation is withheld because the defect is upstream of parameter-space geometry."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "config.incomplete-snapshot",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "0 configuration(s) lack a complete evaluated feature snapshot; 1 configuration(s) lack a complete evaluated parameter snapshot."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "parameter.unevaluated",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "2 parameter(s) lack an evaluated scalar; 0 parameter expression(s) contain unresolved, ambiguous, or malformed parameter references; 0 parameter expression(s) cannot regenerate a finite typed value; 0 parameter record(s) contain missing or non-preceding dependency edges; 0 parameter record(s) have dependency edges inconsistent with their expressions; 0 dependency-driven parameter(s) disagree with their evaluated expressions."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "pmi.dimension-unbound",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "0 semantic dimension record(s) are not bound to parameters; 3 parameter dimension(s) retain native subtypes."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.native-kind-retained",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "1 feature(s) retain their native kind without a complete neutral operation definition."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "feature.typed-operand-incomplete",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "2 typed feature(s) retain native or unresolved required operation operands."
+      }
+    ]
+  },
+  "export": {
+    "format": "step",
+    "census": {
+      "basis": "target_records",
+      "counts": {
+        "ADVANCED_FACE": 5,
+        "APPLICATION_CONTEXT": 1,
+        "APPLICATION_PROTOCOL_DEFINITION": 1,
+        "AXIS2_PLACEMENT_2D": 3,
+        "AXIS2_PLACEMENT_3D": 9,
+        "BREP_WITH_VOIDS": 1,
+        "B_SPLINE_CURVE_WITH_KNOTS": 7,
+        "B_SPLINE_SURFACE_WITH_KNOTS": 1,
+        "CARTESIAN_POINT": 1252,
+        "CIRCLE": 6,
+        "CLOSED_SHELL": 3,
+        "CYLINDRICAL_SURFACE": 2,
+        "DEFINITIONAL_REPRESENTATION": 8,
+        "DIRECTION": 10,
+        "EDGE_CURVE": 10,
+        "EDGE_LOOP": 5,
+        "FACE_OUTER_BOUND": 5,
+        "GEOMETRIC_CURVE_SET": 1,
+        "GEOMETRIC_REPRESENTATION_CONTEXT": 2,
+        "LENGTH_UNIT": 1,
+        "LINE": 6,
+        "ORIENTED_CLOSED_SHELL": 2,
+        "ORIENTED_EDGE": 13,
+        "PCURVE": 8,
+        "PLANE": 3,
+        "PLANE_ANGLE_UNIT": 1,
+        "PRODUCT": 1,
+        "PRODUCT_CONTEXT": 1,
+        "PRODUCT_DEFINITION": 1,
+        "PRODUCT_DEFINITION_CONTEXT": 1,
+        "PRODUCT_DEFINITION_FORMATION": 1,
+        "PRODUCT_DEFINITION_SHAPE": 1,
+        "SHAPE_DEFINITION_REPRESENTATION": 1,
+        "SHAPE_REPRESENTATION": 1,
+        "SOLID_ANGLE_UNIT": 1,
+        "SURFACE_CURVE": 4,
+        "UNCERTAINTY_MEASURE_WITH_UNIT": 1,
+        "VECTOR": 6,
+        "VERTEX_POINT": 9
+      }
+    },
+    "fidelity": {
+      "status": "not_consumed"
+    },
+    "write_path": "synthesized",
+    "losses": [
+      {
+        "code": {
+          "namespace": "step",
+          "code": "topology.edge-curve-unsupported",
+          "kind": "topology_not_transferred"
+        },
+        "severity": "warning",
+        "message": "edge sldprt:brep:edge#563 was omitted because curve sldprt:brep:curve#604 is unsupported"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "topology.loop-no-continuous-ordering",
+          "kind": "topology_not_transferred"
+        },
+        "severity": "error",
+        "message": "loop sldprt:brep:loop#776 has no continuous vertex-to-vertex coedge ordering"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "topology.face-omitted-outer-loop",
+          "kind": "topology_not_transferred"
+        },
+        "severity": "error",
+        "message": "face sldprt:brep:face#444 omitted loop sldprt:brep:loop#776 because the loop has no writable topology"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "topology.face-no-writable-bounds",
+          "kind": "topology_not_transferred"
+        },
+        "severity": "error",
+        "message": "face sldprt:brep:face#444 has no writable bounds"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "topology.shell-omitted-outer-face",
+          "kind": "topology_not_transferred"
+        },
+        "severity": "error",
+        "message": "shell sldprt:brep:shell#8.component-1 omitted face sldprt:brep:face#444 because the face has no writable topology"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "tessellation.requires-ap242",
+          "kind": "tessellation_omitted"
+        },
+        "severity": "warning",
+        "message": "20 tessellation(s) require an AP242 target; AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 } does not carry tessellated geometry"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "geometry.curveless-edge-omitted",
+          "kind": "curveless_edge_omitted"
+        },
+        "severity": "warning",
+        "message": "1 edge(s) have no typed 3D curve or carry a STEP-unsupported transform and were omitted from their edge loops (STEP EDGE_CURVE requires a 3D curve)"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "geometry.carrier-not-written",
+          "kind": "geometry_not_transferred"
+        },
+        "severity": "warning",
+        "message": "1 geometry carrier(s) were not written: 'sldprt:brep:curve#604'"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "pcurve.carrier-unwritable",
+          "kind": "pcurve_omitted"
+        },
+        "severity": "warning",
+        "message": "2 coedge pcurve carrier(s) use geometry or surface references that were not writable: 'sldprt:brep:pcurve#cylinder:591', 'sldprt:brep:pcurve#cylinder:626'"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "topology.region-no-shell-list",
+          "kind": "topology_not_transferred"
+        },
+        "severity": "error",
+        "message": "1 region(s) have no shell list and were not written to STEP: 'sldprt:brep:region#12'"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "pcurve.coedge-native-metadata",
+          "kind": "pcurve_omitted"
+        },
+        "severity": "info",
+        "message": "2 emitted coedge pcurve(s) carry native-only metadata not represented in STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "design.parametric-records-omitted",
+          "kind": "parametric_record_omitted"
+        },
+        "severity": "info",
+        "message": "140 parametric/design record(s) were not represented in STEP: feature=37, configuration=1, parameter=29, sketch=7, sketch entity=62, sketch constraint=4"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "native.passthrough-record-omitted",
+          "kind": "passthrough_record_omitted"
+        },
+        "severity": "info",
+        "message": "43 uninterpreted passthrough record(s) were not represented in STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "appearance.reduced-to-base-color",
+          "kind": "appearance_reduced"
+        },
+        "severity": "info",
+        "message": "5 appearance asset(s) were reduced to STYLED_ITEM base colors; unsupported schemas, textures, and shader properties were not written to STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "attribute.source-record-not-written",
+          "kind": "attributes_not_transferred"
+        },
+        "severity": "info",
+        "message": "5 source attribute record(s) were not written to STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "native.source-record-omitted",
+          "kind": "parametric_record_omitted"
+        },
+        "severity": "info",
+        "message": "572 source-native record(s) were not represented in STEP"
+      }
+    ],
+    "notes": [],
+    "target": "step:ap214"
+  }
+}

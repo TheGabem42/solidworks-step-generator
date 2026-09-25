@@ -1,0 +1,437 @@
+{
+  "command": "convert",
+  "generator": "cadmpeg 0.6.0+g9a520bea6167",
+  "status": "ok",
+  "refusal": null,
+  "decode_report": {
+    "format": "sldprt",
+    "container_only": false,
+    "geometry_transferred": true,
+    "losses": [
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "geometry.face-support-surface-untyped",
+          "kind": "geometry_not_transferred"
+        },
+        "severity": "warning",
+        "message": "1 face(s) rest on a support surface whose stored carrier this codec does not type; the face, its loops, and trims are emitted with an unknown-geometry surface linking to the preserved record bytes. Topology is transferred; the underlying surface shape is not."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "tessellation.face-ownership-unresolved",
+          "kind": "reference_graph_not_closed"
+        },
+        "severity": "warning",
+        "message": "6 DisplayLists tessellation table(s) do not resolve to B-rep face ownership. Geometry and native channels are retained without fabricating body or face references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "sketch.native-constraint",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "1 planar or spatial sketch constraint(s) retain native relation kinds and operands without complete neutral geometric semantics."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "sketch.native-geometry",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "2 sketch entity geometry record(s) retain native kinds without solved neutral geometry."
+      }
+    ],
+    "notes": [
+      "outer version word: 0x00000004; 42 CRC-validated block(s), 2 tail-directory entry/entries, 13 cache-cell(s), 0 compound stream(s)",
+      "active Parasolid B-rep candidate: Contents/Config-0-Partition (50852 bytes, schema SCH_3701250_37102_13006)",
+      "Parasolid body streams supply the typed topology and analytic carriers used by decode"
+    ],
+    "dialects": {
+      "primary": {
+        "format": "sldprt",
+        "dialect": "sldprt:sw-version-12000-plus",
+        "declared": {
+          "sw_version": "19000"
+        },
+        "admission": "admitted"
+      },
+      "extra": [
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@9189:Contents/Config-0-GhostPartition+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@9189:Contents/Config-0-GhostPartition+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@12719:Contents/Config-0-Partition+0",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@12719:Contents/Config-0-Partition+0",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@12719:Contents/Config-0-Partition+25223",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@12719:Contents/Config-0-Partition+25223",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@56883:Contents/Config-0-ResolvedFeatures+41773",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@56883:Contents/Config-0-ResolvedFeatures+41773",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@56883:Contents/Config-0-ResolvedFeatures+63695",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@56883:Contents/Config-0-ResolvedFeatures+63695",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@56883:Contents/Config-0-ResolvedFeatures+81544",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@56883:Contents/Config-0-ResolvedFeatures+81544",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@56883:Contents/Config-0-ResolvedFeatures+96497",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@56883:Contents/Config-0-ResolvedFeatures+96497",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@56883:Contents/Config-0-ResolvedFeatures+114565",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@56883:Contents/Config-0-ResolvedFeatures+114565",
+          "admission": "admitted"
+        },
+        {
+          "format": "parasolid",
+          "dialect": "parasolid:format-13006",
+          "declared": {
+            "carrier": "block@56883:Contents/Config-0-ResolvedFeatures+153646",
+            "schema": "SCH_3701250_37102_13006"
+          },
+          "instance": "block@56883:Contents/Config-0-ResolvedFeatures+153646",
+          "admission": "admitted"
+        }
+      ]
+    }
+  },
+  "check_report": {
+    "entity_counts": {
+      "appearance_bindings": 0,
+      "appearances": 4,
+      "assembly_joints": 0,
+      "assets": 0,
+      "attributes": 5,
+      "bodies": 1,
+      "coedges": 230,
+      "configurations": 1,
+      "curves": 112,
+      "drawings": 0,
+      "edges": 115,
+      "faces": 43,
+      "feature_input_topologies": 0,
+      "feature_result_topologies": 0,
+      "features": 38,
+      "loops": 57,
+      "native.sldprt.configurations": 1,
+      "native.sldprt.feature_histories": 1,
+      "native.sldprt.feature_input_classes": 81,
+      "native.sldprt.feature_input_edge_selections": 12,
+      "native.sldprt.feature_input_generated_surface_identities": 156,
+      "native.sldprt.feature_input_lanes": 1,
+      "native.sldprt.feature_input_names": 80,
+      "native.sldprt.feature_input_references": 7,
+      "native.sldprt.feature_input_relation_bindings": 1,
+      "native.sldprt.feature_input_relation_instances": 1,
+      "native.sldprt.feature_input_scalars": 46,
+      "native.sldprt.features": 38,
+      "native.sldprt.pmi_dimensions": 18,
+      "native.sldprt.sketch_input_entities": 201,
+      "native.sldprt.unknowns": 43,
+      "occurrences": 0,
+      "parameters": 19,
+      "pcurves": 217,
+      "pmi": 0,
+      "points": 74,
+      "presentation_documents": 0,
+      "presentation_layers": 0,
+      "procedural_curves": 0,
+      "procedural_surfaces": 1,
+      "product_definitions": 0,
+      "regions": 2,
+      "semantic_annotations": 0,
+      "shells": 1,
+      "sketch_constraints": 49,
+      "sketch_entities": 97,
+      "sketches": 8,
+      "spatial_sketch_constraints": 0,
+      "spatial_sketch_entities": 0,
+      "spatial_sketches": 0,
+      "spreadsheets": 0,
+      "subds": 0,
+      "surfaces": 43,
+      "surfaces_unknown_geometry": 1,
+      "tessellations": 43,
+      "vertices": 74,
+      "view_presentations": 0
+    },
+    "findings": [],
+    "losses": [
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "geometry.face-support-surface-untyped",
+          "kind": "geometry_not_transferred"
+        },
+        "severity": "warning",
+        "message": "1 face(s) rest on a support surface whose stored carrier this codec does not type; the face, its loops, and trims are emitted with an unknown-geometry surface linking to the preserved record bytes. Topology is transferred; the underlying surface shape is not."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "tessellation.face-ownership-unresolved",
+          "kind": "reference_graph_not_closed"
+        },
+        "severity": "warning",
+        "message": "6 DisplayLists tessellation table(s) do not resolve to B-rep face ownership. Geometry and native channels are retained without fabricating body or face references."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "sketch.native-constraint",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "1 planar or spatial sketch constraint(s) retain native relation kinds and operands without complete neutral geometric semantics."
+      },
+      {
+        "code": {
+          "namespace": "sldprt",
+          "code": "sketch.native-geometry",
+          "kind": "feature_history_retained"
+        },
+        "severity": "warning",
+        "message": "2 sketch entity geometry record(s) retain native kinds without solved neutral geometry."
+      }
+    ]
+  },
+  "export": {
+    "format": "step",
+    "census": {
+      "basis": "target_records",
+      "counts": {
+        "ADVANCED_FACE": 41,
+        "APPLICATION_CONTEXT": 1,
+        "APPLICATION_PROTOCOL_DEFINITION": 1,
+        "AXIS2_PLACEMENT_2D": 38,
+        "AXIS2_PLACEMENT_3D": 86,
+        "B_SPLINE_CURVE_WITH_KNOTS": 16,
+        "CARTESIAN_POINT": 335,
+        "CIRCLE": 82,
+        "CLOSED_SHELL": 1,
+        "CYLINDRICAL_SURFACE": 17,
+        "DEFINITIONAL_REPRESENTATION": 217,
+        "DIRECTION": 73,
+        "EDGE_CURVE": 115,
+        "EDGE_LOOP": 55,
+        "FACE_BOUND": 14,
+        "FACE_OUTER_BOUND": 41,
+        "GEOMETRIC_CURVE_SET": 1,
+        "GEOMETRIC_REPRESENTATION_CONTEXT": 2,
+        "LENGTH_UNIT": 1,
+        "LINE": 231,
+        "MANIFOLD_SOLID_BREP": 1,
+        "ORIENTED_EDGE": 222,
+        "PCURVE": 217,
+        "PLANE": 20,
+        "PLANE_ANGLE_UNIT": 1,
+        "PRODUCT": 1,
+        "PRODUCT_CONTEXT": 1,
+        "PRODUCT_DEFINITION": 1,
+        "PRODUCT_DEFINITION_CONTEXT": 1,
+        "PRODUCT_DEFINITION_FORMATION": 1,
+        "PRODUCT_DEFINITION_SHAPE": 1,
+        "SHAPE_DEFINITION_REPRESENTATION": 1,
+        "SHAPE_REPRESENTATION": 1,
+        "SOLID_ANGLE_UNIT": 1,
+        "SURFACE_CURVE": 111,
+        "TOROIDAL_SURFACE": 4,
+        "UNCERTAINTY_MEASURE_WITH_UNIT": 1,
+        "VECTOR": 231,
+        "VERTEX_POINT": 74
+      }
+    },
+    "fidelity": {
+      "status": "not_consumed"
+    },
+    "write_path": "synthesized",
+    "losses": [
+      {
+        "code": {
+          "namespace": "step",
+          "code": "topology.shell-omitted-outer-face",
+          "kind": "topology_not_transferred"
+        },
+        "severity": "error",
+        "message": "shell sldprt:brep:shell#7 omitted face sldprt:brep:face#612 because the face has no writable topology"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "topology.shell-omitted-outer-face",
+          "kind": "topology_not_transferred"
+        },
+        "severity": "error",
+        "message": "shell sldprt:brep:shell#7 omitted face sldprt:brep:face#782 because the face has no writable topology"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "tessellation.requires-ap242",
+          "kind": "tessellation_omitted"
+        },
+        "severity": "warning",
+        "message": "43 tessellation(s) require an AP242 target; AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 } does not carry tessellated geometry"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "geometry.unknown-surface-face-omitted",
+          "kind": "unknown_surface_face_omitted"
+        },
+        "severity": "warning",
+        "message": "2 face(s) rest on an unknown or STEP-unsupported surface and were omitted from the STEP shell (an ADVANCED_FACE requires a surface); their topology remains in the IR"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "geometry.carrier-not-written",
+          "kind": "geometry_not_transferred"
+        },
+        "severity": "warning",
+        "message": "2 geometry carrier(s) were not written: 'sldprt:brep:surf#612', 'sldprt:brep:surf#782'"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "topology.region-no-shell-list",
+          "kind": "topology_not_transferred"
+        },
+        "severity": "error",
+        "message": "1 region(s) have no shell list and were not written to STEP: 'sldprt:brep:region#11'"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "pcurve.coedge-native-metadata",
+          "kind": "pcurve_omitted"
+        },
+        "severity": "info",
+        "message": "9 emitted coedge pcurve(s) carry native-only metadata not represented in STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "pcurve.use-native-metadata",
+          "kind": "pcurve_omitted"
+        },
+        "severity": "info",
+        "message": "9 pcurve use(s) carry native-only parameter metadata not represented in STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "design.parametric-records-omitted",
+          "kind": "parametric_record_omitted"
+        },
+        "severity": "info",
+        "message": "212 parametric/design record(s) were not represented in STEP: feature=38, configuration=1, parameter=19, sketch=8, sketch entity=97, sketch constraint=49"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "native.passthrough-record-omitted",
+          "kind": "passthrough_record_omitted"
+        },
+        "severity": "info",
+        "message": "43 uninterpreted passthrough record(s) were not represented in STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "appearance.reduced-to-base-color",
+          "kind": "appearance_reduced"
+        },
+        "severity": "info",
+        "message": "4 appearance asset(s) were reduced to STYLED_ITEM base colors; unsupported schemas, textures, and shader properties were not written to STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "attribute.source-record-not-written",
+          "kind": "attributes_not_transferred"
+        },
+        "severity": "info",
+        "message": "5 source attribute record(s) were not written to STEP"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "geometry.procedural-reduced-to-carrier",
+          "kind": "procedural_reduced"
+        },
+        "severity": "info",
+        "message": "1 procedural surface definition(s) and 0 procedural curve definition(s) were reduced to their solved STEP carriers"
+      },
+      {
+        "code": {
+          "namespace": "step",
+          "code": "native.source-record-omitted",
+          "kind": "parametric_record_omitted"
+        },
+        "severity": "info",
+        "message": "644 source-native record(s) were not represented in STEP"
+      }
+    ],
+    "notes": [],
+    "target": "step:ap214"
+  }
+}

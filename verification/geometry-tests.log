@@ -1,0 +1,11 @@
+test_displaced_instance_is_rejected (test_geometry.GeometryTests.test_displaced_instance_is_rejected) ... ok
+test_equal_volume_and_bounds_but_moved_hole_is_rejected (test_geometry.GeometryTests.test_equal_volume_and_bounds_but_moved_hole_is_rejected) ... ok
+test_missing_duplicate_instance_is_rejected (test_geometry.GeometryTests.test_missing_duplicate_instance_is_rejected) ... ok
+test_reordered_solids_still_match (test_geometry.GeometryTests.test_reordered_solids_still_match) ... ok
+test_scaled_box_is_rejected (test_geometry.GeometryTests.test_scaled_box_is_rejected) ... ok
+test_step_roundtrip_preserves_box (test_geometry.GeometryTests.test_step_roundtrip_preserves_box) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.314s
+
+OK

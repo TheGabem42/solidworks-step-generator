@@ -1,0 +1,18 @@
+[
+  {
+    "reference": "../../sample step files/Steps/Throttle coupling.STEP",
+    "actual": "Throttle coupling.SLDPRT.step"
+  },
+  {
+    "reference": "../../sample step files/Steps/throttle mount.STEP",
+    "actual": "throttle mount.SLDPRT.step"
+  },
+  {
+    "reference": "../../sample step files/Steps/Actuator Base.STEP",
+    "actual": "Actuator Base.SLDPRT.step"
+  },
+  {
+    "reference": "../../sample step files/Steps/Tolomatic + plate.STEP",
+    "actual": "Tolomatic + plate.SLDASM.step"
+  }
+]

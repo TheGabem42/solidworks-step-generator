@@ -1,0 +1,24 @@
+{
+  "previous_goal_turn": "no progress: compatible engine unavailable and user decision unanswered",
+  "current_goal_turn": "no progress: same blocker revalidated; no further independent work can establish native geometry accuracy",
+  "consecutive_goal_turns_with_same_blocker": 3,
+  "blocker": "No available compatible conversion engine for the supplied newer-version native models; licensed alternative choice remains unanswered.",
+  "supplied_native_files_attempted": 26,
+  "successful_native_exports": 0,
+  "future_version_errors": 26,
+  "installed_standalone_candidates": [],
+  "local_backend_settings_present": false,
+  "original_files_changed": [],
+  "completion_proven": false,
+  "needed_next": "User decision/access for a licensed standalone translator, or another compatible engine. Do not retry SOLIDWORKS 2025 against the same files.",
+  "blocked_audit_passed": true,
+  "latest_backend_evaluation": {
+    "date": "2026-09-25",
+    "user_preference": "Free standalone preferred; compatible SOLIDWORKS machine accepted as fallback.",
+    "bambu_result": "Saved display mesh only; assemblies and exact surfaces unsupported.",
+    "cadmpeg_trial_inputs": 4,
+    "cadmpeg_geometry_passes": 0,
+    "current_blocker": "No compatible SOLIDWORKS reader available; current 2025 reader rejects the supplied native models.",
+    "evidence": "BACKEND-EVALUATION.md"
+  }
+}

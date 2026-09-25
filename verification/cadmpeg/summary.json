@@ -1,0 +1,78 @@
+{
+  "engine": "cadmpeg 0.6.0",
+  "platform": "macOS arm64",
+  "results": [
+    {
+      "source": "Throttle coupling.SLDPRT",
+      "exit_code": 0,
+      "elapsed_s": 0.12,
+      "step_written": true,
+      "last_lines": [
+        "  [warning/geometry] 1 geometry carrier(s) were not written: 'sldprt:brep:curve#604'",
+        "  [warning/geometry] 2 coedge pcurve carrier(s) use geometry or surface references that were not writable: 'sldprt:brep:pcurve#cylinder:591', 'sldprt:brep:pcurve#cylinder:626'",
+        "  [error/topology] 1 region(s) have no shell list and were not written to STEP: 'sldprt:brep:region#12'",
+        "  [info/geometry] 2 emitted coedge pcurve(s) carry native-only metadata not represented in STEP",
+        "  [info/design_intent] 140 parametric/design record(s) were not represented in STEP: feature=37, configuration=1, parameter=29, sketch=7, sketch entity=62, sketch constraint=4",
+        "  [info/other] 43 uninterpreted passthrough record(s) were not represented in STEP",
+        "  [info/material] 5 appearance asset(s) were reduced to STYLED_ITEM base colors; unsupported schemas, textures, and shader properties were not written to STEP",
+        "  [info/attribute] 5 source attribute record(s) were not written to STEP",
+        "  [info/design_intent] 572 source-native record(s) were not represented in STEP",
+        "wrote report verification/cadmpeg/Throttle coupling.SLDPRT.report.json"
+      ]
+    },
+    {
+      "source": "throttle mount.SLDPRT",
+      "exit_code": 0,
+      "elapsed_s": 0.11,
+      "step_written": true,
+      "last_lines": [
+        "  [error/topology] 1 region(s) have no shell list and were not written to STEP: 'sldprt:brep:region#11'",
+        "  [info/geometry] 9 emitted coedge pcurve(s) carry native-only metadata not represented in STEP",
+        "  [info/geometry] 9 pcurve use(s) carry native-only parameter metadata not represented in STEP",
+        "  [info/design_intent] 212 parametric/design record(s) were not represented in STEP: feature=38, configuration=1, parameter=19, sketch=8, sketch entity=97, sketch constraint=49",
+        "  [info/other] 43 uninterpreted passthrough record(s) were not represented in STEP",
+        "  [info/material] 4 appearance asset(s) were reduced to STYLED_ITEM base colors; unsupported schemas, textures, and shader properties were not written to STEP",
+        "  [info/attribute] 5 source attribute record(s) were not written to STEP",
+        "  [info/geometry] 1 procedural surface definition(s) and 0 procedural curve definition(s) were reduced to their solved STEP carriers",
+        "  [info/design_intent] 644 source-native record(s) were not represented in STEP",
+        "wrote report verification/cadmpeg/throttle mount.SLDPRT.report.json"
+      ]
+    },
+    {
+      "source": "Actuator Base.SLDPRT",
+      "exit_code": 1,
+      "elapsed_s": 0.26,
+      "step_written": false,
+      "last_lines": [
+        "  sketches: 30",
+        "  surfaces: 306",
+        "  tessellations: 77",
+        "  vertices: 480",
+        "  [error/referential_integrity] content child `sldprt:model:feature#354528:12` does not follow its parent (sldprt:model:feature#354528:11)",
+        "  [error/referential_integrity] content child `sldprt:model:feature#354528:17` does not follow its parent (sldprt:model:feature#354528:16)",
+        "  [error/referential_integrity] content child `sldprt:model:feature#354528:42` does not follow its parent (sldprt:model:feature#354528:41)",
+        "  [error/referential_integrity] content child `sldprt:model:feature#354528:61` does not follow its parent (sldprt:model:feature#354528:60)",
+        "wrote report verification/cadmpeg/Actuator Base.SLDPRT.report.json",
+        "error: check found 4 error(s); refusing to export (use --allow-errors to override)"
+      ]
+    },
+    {
+      "source": "New/Tolomatic + plate.SLDASM",
+      "exit_code": 0,
+      "elapsed_s": 0.3,
+      "step_written": true,
+      "last_lines": [
+        "  sketches: 1",
+        "  surfaces: 9",
+        "  vertices: 12",
+        "wrote verification/cadmpeg/Tolomatic + plate.SLDASM.step (389 entities)",
+        "step export losses:",
+        "  [info/design_intent] 56 parametric/design record(s) were not represented in STEP: feature=35, configuration=5, sketch=1, sketch entity=11, sketch constraint=4",
+        "  [info/other] 63 uninterpreted passthrough record(s) were not represented in STEP",
+        "  [info/attribute] 3 source attribute record(s) were not written to STEP",
+        "  [info/design_intent] 143 source-native record(s) were not represented in STEP",
+        "wrote report verification/cadmpeg/Tolomatic + plate.SLDASM.report.json"
+      ]
+    }
+  ]
+}
